@@ -1,0 +1,1 @@
+my copy of a chatbot built in a workshop at the scala up north conference using scala, play & kafka

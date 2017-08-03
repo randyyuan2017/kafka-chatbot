@@ -1,0 +1,31 @@
+<HTML>
+    <HEAD>
+        <script src="static/js/jquery-3.2.1.min.js"></script>
+        <script src="static/js/oboe-browser.min.js"></script>
+        <script src="static/js/asyncchat.js"></script>
+        <link rel="stylesheet" href="static/css/global.css">
+    </HEAD>
+    <BODY>
+    Async Chat
+        <div>
+            <div>
+                Name: <input id="sender" type="text" name="My Name">
+                Group:
+                <select id="group">
+                    <option value="Animals">Animals</option>
+                    <option value="Food">Food</option>
+                    <option value="Things">Things</option>
+                    <option value="Undesireable ">Undesirable</option>
+                </select>
+                <button id="save">Save</button>
+            </div>
+            <div id="message_window">
+                <div class="messages" id="Response">
+                </div>
+                <div>
+                    Message: <input id="message" type="text" name="Message"><button id="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </BODY>
+</HTML>

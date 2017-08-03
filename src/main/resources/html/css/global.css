@@ -1,0 +1,29 @@
+div.messages {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    overflow-y: scroll;
+    height: 400px;
+}
+div.sender_messages {
+    text-align: left;
+    margin:5px;
+}
+span.sender_messages {
+    border-radius: 6px;
+    background: #73AD21;
+    padding: 2 10 2 10;
+}
+
+div.other_messages{
+    text-align: right;
+    margin:5px;
+}
+span.other_messages {
+    border-radius: 6px;
+    background: #507cc4;
+    padding: 2 10 2 10;
+}
